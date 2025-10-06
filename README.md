@@ -27,7 +27,7 @@ node bin/cli.js path/to/code
 
 Exaple usage 
 ```bash
-node bin/cli.js test/sample1.js
+node bin/cli.js test/sample2.js
 ```
 ```bash
 Scanning: test/sample2.js (0.1 KB)
