@@ -1,0 +1,1 @@
+npm install @babel/parser @babel/traverse chalk @mdn/browser-compat-data compute-baseline

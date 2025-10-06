@@ -1,0 +1,3 @@
+A B test
+
+When you run node test/sample2.js via your scanner, it should detect navigator.share usage and warn.

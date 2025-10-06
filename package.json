@@ -1,0 +1,30 @@
+{
+  "name": "baseline-scanner",
+  "version": "0.1.0",
+  "description": "CLI tool to scan web code and warn about non‑Baseline web features",
+  "main": "lib/scanner.js",
+  "bin": {
+    "baseline-scanner": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "node test/sample1.js && node test/sample2.js"
+  },
+  "keywords": [
+    "baseline",
+    "web features",
+    "scanner",
+    "compatibility",
+    "lint"
+  ],
+  "author": "QuickFlipUSA",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.28.4",
+    "@babel/traverse": "^7.28.4",
+    "@mdn/browser-compat-data": "^7.1.10",
+    "acorn": "^8.0.0",
+    "axios": "^1.0.0",
+    "chalk": "^4.1.2",
+    "compute-baseline": "^0.4.0"
+  }
+}

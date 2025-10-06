@@ -1,0 +1,8 @@
+{
+  "fetch": true,
+  "Promise": true,
+  "BigInt": false,
+  "navigator.share": false,
+  "crypto.subtle": true
+}
+
