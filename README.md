@@ -49,7 +49,7 @@ Exaple usage
 ```bash
 node bin/cli.js test/sample2.js
 ```
-```bash
+```
 Scanning: test/sample2.js (0.1 KB)
 ⚠ Found 1 potential non‑Baseline usages:
 test/sample2.js:2 — navigator.share — Not in Baseline
