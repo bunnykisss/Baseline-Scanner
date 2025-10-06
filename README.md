@@ -1,15 +1,48 @@
-# Baseline Scanner
+# Baseline Scanner 🛡️
 
-Baseline Scanner is a CLI tool (and optionally plugin) that scans your web code and warns when it detects usage of web features that are *not* part of the Baseline (i.e. features that may not yet be stable or universally supported by browsers).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![GitHub stars](https://img.shields.io/github/stars/bunnykisss/Baseline-Scanner)](https://github.com/bunnykisss/Baseline-Scanner/stargazers)  
+[![Issues](https://img.shields.io/github/issues-raw/bunnykisss/Baseline-Scanner)](https://github.com/bunnykisss/Baseline-Scanner/issues)  
 
-## Features
+> A CLI tool to detect non‑Baseline web features in your codebase  
 
-- Parse JavaScript files and detect usage of Web APIs  
-- Cross‑reference against Baseline data  
-- Output warnings with file, line number, feature name  
-- Provide links to documentation and alternatives  
-- Future extension: ESLint plugin
+---
 
+## 🚀 What is Baseline Scanner?
+
+Web development is evolving fast, and not every browser supports every new API or feature. Baseline Scanner helps you maintain compatibility and reliability by detecting usage of web APIs that lie *outside* the defined “Baseline” — warning you about potentially unstable or unsupported code early in development.
+
+---
+
+## ✨ Features
+
+- Parses JavaScript / TypeScript files and scans for Web API usage  
+- Cross-references usages against a Baseline database  
+- Reports filename, line number, and the feature name  
+- Provides documentation links and suggestions for alternatives  
+- (Planned) ESLint / Babel plugin integration  
+- (Planned) GitHub Action / CI integration  
+
+---
+
+## 🛠️ Installation & Usage
+
+```bash
+# Clone the repo
+git clone https://github.com/bunnykisss/Baseline-Scanner.git
+cd Baseline-Scanner
+
+# Install dependencies
+npm install
+
+# Make the CLI executable (if needed)
+chmod +x bin/cli.js
+npm link
+
+# Run on a project
+baseline-scanner path/to/your/code
+# or
+node bin/cli.js path/to/your/code
 ## Installation 
 
 Install Dependencies 
@@ -35,7 +68,6 @@ Scanning: test/sample2.js (0.1 KB)
 test/sample2.js:2 — navigator.share — Not in Baseline
 ```
 Cheers!
-
 
 
 
