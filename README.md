@@ -43,20 +43,7 @@ npm link
 baseline-scanner path/to/your/code
 # or
 node bin/cli.js path/to/your/code
-## Installation 
 
-Install Dependencies 
-
-```bash
-npm install 
-
-chmod +x bin/cli.js
-
-npm link
-
-node bin/cli.js path/to/code
-
-```
 
 Exaple usage 
 ```bash
